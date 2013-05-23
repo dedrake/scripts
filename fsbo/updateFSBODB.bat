@@ -1,6 +1,6 @@
 @echo off
 REM update FSBO liquibase DB
-cd f:\Development\dmm-fsbo-schema
+cd c:\dev\fsbo_app\schema
 git fetch
 git checkout master
 git pull

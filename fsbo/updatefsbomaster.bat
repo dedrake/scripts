@@ -1,7 +1,7 @@
 @echo off
 REM update fsbo repos
 echo.
-cd f:\Development\fsbo_app
+cd c:\dev\fsbo_app
 echo [update core]
 cd core
 git fetch 
@@ -39,6 +39,6 @@ cd admin
 git fetch 
 git checkout wip
 git pull
-cd f:\Development\fsbo_app
+cd c:\dev\fsbo_app
 echo.
 echo [done]
