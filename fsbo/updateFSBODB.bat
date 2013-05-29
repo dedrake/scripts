@@ -6,5 +6,6 @@ git checkout master
 git pull
 git checkout wip
 git pull
+git gc
 mvn.bat -Plocal resources:resources liquibase:update
 exit
