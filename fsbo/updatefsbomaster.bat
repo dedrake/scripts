@@ -4,14 +4,14 @@ echo.
 cd c:\dev\fsbo_app
 echo [update core]
 cd core
-git fetch 
+REM git fetch 
 git checkout wip
 git pull
 cd ..
 echo. 
 echo [update marinus]
 cd marinus 
-git fetch
+REM git fetch
 git checkout master
 git pull 
 git checkout wip
@@ -22,21 +22,21 @@ echo [update modules/*]
 cd modules
 echo [update jobs]
 cd jobs 
-git fetch 
+REM git fetch 
 git checkout wip
 git pull
 cd ..
 echo. 
 echo [update default]
 cd default 
-git fetch 
+REM git fetch 
 git checkout wip
 git pull
 cd ..
 echo.
 echo [update admin]
 cd admin 
-git fetch 
+REM git fetch 
 git checkout wip
 git pull
 cd c:\dev\fsbo_app
