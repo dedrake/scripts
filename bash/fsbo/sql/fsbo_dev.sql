@@ -1,0 +1,10 @@
+create database fsbo;
+use fsbo;
+create user 'fsbo'@'localhost' identified by 'fsbo';
+grant all on fsbo.* to 'fsbo'@'localhost';
+create database fsbo_test;
+use fsbo_test;
+grant all on fsbo_test.* to 'fsbo'@'localhost';
+create database fsbo_functional_test;
+use fsbo_functional_test;
+grant all on fsbo_functional_test.* to 'fsbo'@'localhost';
